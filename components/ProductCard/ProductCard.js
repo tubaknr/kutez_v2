@@ -1,13 +1,34 @@
 import styles from "./ProductCard.module.css";
+import GoldTypeSelector from "../GoldTypeSelector/GoldTypeSelector";
+import { useState } from "react";
+import StarRating from "../StarRatings.js/StarRating";
+import GoldPrice from "../GoldPrice/GoldPrice";
 
-const ProductCard = ({ title, price, goldType, image }) => {
+const ProductCard = ({ title, imagesList, rating, weight }) => {
+  const [selectedGoldType, setSelectedGoldType] = useState("yellow");
+  // const [calculatedPrice, setCalculatedPrice] = useState(null);
   return (
     <>
       <div className={styles.productCard}>
-        <img src={image} alt={title} className={styles.productImage} />
+        <img
+          src={imagesList[selectedGoldType]}
+          alt={title}
+          className={styles.productImage}
+        />
+
         <h2>{title}</h2>
-        <p>$101.00 {price} USD</p>
-        <p className={styles.goldType}>{goldType}</p>
+        <GoldPrice
+          weight={weight}
+          rating={rating}
+          // onPriceChange={setCalculatedPrice}
+        />
+
+        <GoldTypeSelector
+          selectedType={selectedGoldType}
+          onSelect={setSelectedGoldType}
+        />
+
+        <StarRating rating={(rating * 5).toFixed(1)} />
       </div>
     </>
   );

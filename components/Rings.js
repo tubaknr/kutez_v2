@@ -36,10 +36,10 @@ const Rings = () => {
           {rings.map((product, index) => (
             <ProductCard
               key={index}
-              image={product.images.yellow}
               title={product.name}
-              price={product.price}
-              goldType={"Yellow"}
+              imagesList={product.images}
+              rating={product.popularityScore}
+              weight={product.weight}
             />
           ))}
         </div>

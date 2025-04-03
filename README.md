@@ -1,5 +1,7 @@
 # Engagement Rings Website
 
+- [Vercel link](kutez-xl.vercel.app "kutez-xl.vercel.app")
+
 ## General Laptop Screen:
 
 ![Website Screenshot](/public/deployed.png)

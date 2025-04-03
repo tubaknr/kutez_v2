@@ -2,6 +2,11 @@
 
 - [Vercel link](kutez-xl.vercel.app "kutez-xl.vercel.app")
 
+## Video:
+
+https://github.com/user-attachments/assets/a6042801-3846-4664-9069-f43362e8548f
+
+
 ## General Laptop Screen:
 
 ![Website Screenshot](/public/deployed.png)

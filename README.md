@@ -1,8 +1,8 @@
 # Engagement Rings Website
 
-- [Vercel link](kutez-xl.vercel.app "kutez-xl.vercel.app")
+- Vercel link: kutez-xl.vercel.app
 
-## Video:
+ ## Video:
 
 https://github.com/user-attachments/assets/a6042801-3846-4664-9069-f43362e8548f
 

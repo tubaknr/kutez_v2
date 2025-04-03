@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/globals.css";
 
 export const metadata = {
-  title: "Engagement Rings",
-  description: " Engagement Rings",
+  title: "",
+  description: "",
 };
 
 export default function RootLayout({ children }) {
@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <head></head>
       <body>
         <header>
-          <h1>Welcome to Rings!</h1>
+          <h1></h1>
         </header>
         <main>{children}</main>
         <footer>2025 Engagement rigns All rights reserved.</footer>

@@ -1,11 +1,36 @@
-/* global styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 20px auto;
+  gap: 20px;
+  padding-bottom: 15px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.top-header {
+  text-align: center;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  margin: 20px auto;
+}
+
+.content {
+  padding-top: 80px;
 }

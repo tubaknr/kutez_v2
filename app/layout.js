@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
           <h1></h1>
         </header>
         <main>{children}</main>
-        <footer>2025 Engagement rigns All rights reserved.</footer>
+        <footer></footer>
       </body>
     </html>
   );

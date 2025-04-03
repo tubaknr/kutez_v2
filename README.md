@@ -2,19 +2,15 @@
 
 ## General Laptop Screen:
 
-![Website Screenshot](/public/website.png)
+![Website Screenshot](/public/deployed.png)
 
 ## Tablet-size Screen:
 
-![Website Screenshot](/public/tablet.png)
+![Website Screenshot](/public/tablet2.png)
 
 ## Mobile Screen:
 
-![Website Screenshot](/public/mobile.png)
-
-## Big screens (1024px):
-
-![Website Screenshot](/public/big.png)
+![Website Screenshot](/public/mobile2.png)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

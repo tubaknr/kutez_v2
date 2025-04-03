@@ -1,6 +1,16 @@
 # Engagement Rings Website
 
+## General Laptop Screen:
+
 ![Website Screenshot](/public/website.png)
+
+## Tablet-size Screen:
+
+![Website Screenshot](/public/tablet.png)
+
+## Mobile Screen:
+
+![Website Screenshot](/public/mobile.png)
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

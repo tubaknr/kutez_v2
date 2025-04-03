@@ -34,7 +34,7 @@ body {
 .grid {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  margin: 20px auto;
+  /* margin: 20px auto; */
   gap: 20px;
   padding-bottom: 15px;
   overflow-x: auto;
@@ -74,4 +74,40 @@ body {
 
 .content {
   padding-top: 80px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 60%;
+  }
+  .grid {
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  .grid::-webkit-scrollbar {
+    height: 5px;
+  }
+  .top-header {
+    font-size: 30px;
+    top: 7%;
+  }
+  .content {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+  .grid {
+    gap: 15px;
+  }
+  .top-header {
+    font-size: 35px;
+    top: 6%;
+  }
 }

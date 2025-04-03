@@ -14,7 +14,7 @@ const FinalGoldPrice = ({ weight, rating }) => {
     Number(goldPrice.goldPrice)
   ).toFixed(2);
 
-  return <p className={styles.priceText}>${finalPrice}</p>;
+  return <p className={styles.priceText}>${finalPrice} USD</p>;
 };
 
 export default FinalGoldPrice;

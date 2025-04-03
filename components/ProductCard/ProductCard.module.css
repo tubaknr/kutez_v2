@@ -1,16 +1,17 @@
 .productCard {
   align-items: center;
   background: white;
-  gap: 50px;
   padding: 10px;
   border-radius: 8px;
   width: 250px;
   flex-shrink: 0;
+  margin-right: 60px;
 }
 
 .productCard h2 {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 10px;
+  font-family: "Montserrat Regular", sans-serif;
 }
 
 .productCard p {

@@ -5,7 +5,7 @@ import useRings from "@/app/hooks/useRings";
 
 const Rings = () => {
   const rings = useRings();
-  console.log(rings);
+  // console.log(rings);
   return (
     <div>
       <h1 className="top-header">Product List</h1>

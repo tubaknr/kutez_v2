@@ -1,12 +1,13 @@
+"use client";
+
 import styles from "./ProductCard.module.css";
 import GoldTypeSelector from "../GoldTypeSelector/GoldTypeSelector";
 import { useState } from "react";
 import StarRating from "../StarRatings.js/StarRating";
-import GoldPrice from "../GoldPrice/GoldPrice";
+import FinalGoldPrice from "../FinalGoldPrice/FinalGoldPrice";
 
 const ProductCard = ({ title, imagesList, rating, weight }) => {
   const [selectedGoldType, setSelectedGoldType] = useState("yellow");
-  // const [calculatedPrice, setCalculatedPrice] = useState(null);
   return (
     <>
       <div className={styles.productCard}>
@@ -17,11 +18,7 @@ const ProductCard = ({ title, imagesList, rating, weight }) => {
         />
 
         <h2>{title}</h2>
-        <GoldPrice
-          weight={weight}
-          rating={rating}
-          // onPriceChange={setCalculatedPrice}
-        />
+        <FinalGoldPrice weight={weight} rating={rating} />
 
         <GoldTypeSelector
           selectedType={selectedGoldType}

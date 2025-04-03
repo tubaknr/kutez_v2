@@ -16,6 +16,7 @@ export async function GET() {
     }
 
     const data = await response.json();
+    
     if (!data.price) {
       return new Response(
         JSON.stringify({ error: "Invalid gold price data" }),

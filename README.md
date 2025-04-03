@@ -1,6 +1,6 @@
 # Engagement Rings Website
 
-- [Vercel link](kutez-xl.vercel.app "kutez-xl.vercel.app")
+- Vercel link: kutez-xl.vercel.app
 
 ## General Laptop Screen:
 
